@@ -1,0 +1,12 @@
+*{
+  border-sizing: border-box;
+}
+cats {
+  max-width: 500px;
+}
+h1 {
+font-size: 3rem;
+}
+footer {
+  background-color: grey;
+}
