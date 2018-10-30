@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
 .container{
   margin: 0 auto;
   max-width: 1000px;
@@ -11,11 +15,12 @@ background-color: gray;
 position: relative;
 text-align: center;
 padding: 4rem;
+font-size: 12px;
 margin-left: auto;
 margin-right: auto;
 }
 
-.logo{
+logo{
   align-items: center;
   display: block;
 }
@@ -25,7 +30,11 @@ header{
   color: white;
   position: relative;
   padding: 1px;
+  line-height: .5;
+  text-indent: 4rem;
+
 }
+
 nav{
   color: black;
   background-color: lightgray;
@@ -35,7 +44,7 @@ nav{
   width: 100%;
 }
 h4{
-  font-size: 15px;
+  font-size: 12px;
 }
 h1 {
   font-size: 45px;
@@ -60,8 +69,8 @@ li:last-child::after {
   width: 60%;
   height: 30%;
   margin: 0 auto;
-  position: relative;
   float: left;
+  position: relative;
 
 }
 .sidebar-box {
@@ -71,6 +80,7 @@ margin: 0 auto;
 position: relative;
 float: right;
 }
+
 
 a{
   color: #00a3cc;
@@ -85,10 +95,6 @@ p.color{
   font-size: 20px;
 }
 
-img {
-
-
-}
 .clearfix::after {
 content: "";
 display: block;
