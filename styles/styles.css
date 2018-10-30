@@ -26,7 +26,7 @@ header{
   position: relative;
   padding: 1px;
 }
-.nav{
+nav{
   color: black;
   background-color: lightgray;
   position: relative;
@@ -37,30 +37,28 @@ header{
 h4{
   font-size: 15px;
 }
-h2 {
+h1 {
   font-size: 45px;
 }
-h1{
+h2{
   font-size: 25px;
 }
-ul {
+ul li{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display: inline;
 }
 
-li {
-    float: left;
+li:after {
+    content: "/";
 }
 
-li a {
-    display: block;
-    padding: 8px;
+li:last-child::after {
+  content: " ";
 }
 
-content-box{
-  width: 30%;
+.content-box{
+  width: 60%;
+  height: 30%;
   margin: 0 auto;
   position: relative;
   float: left;
@@ -68,6 +66,7 @@ content-box{
 }
 .sidebar-box {
 width: 30%;
+height: 100%;
 margin: 0 auto;
 position: relative;
 float: right;
@@ -75,6 +74,7 @@ float: right;
 
 a{
   color: #00a3cc;
+  text-decoration-line: none;
 }
 
 .color{
@@ -85,6 +85,10 @@ p.color{
   font-size: 20px;
 }
 
+img {
+
+
+}
 .clearfix::after {
 content: "";
 display: block;
